@@ -3,6 +3,25 @@
  Ctrl + A       Manda el cursor al principio de la línea
  Ctrl + E       Manda el cursor al final de la línea
  Alt + backspace       Borra hacia atras del cursor
+ Ctrl+w: borra la palabra inmediatamente antes del cursor.
  Alt + D       Borra una palabra. Me funciono cuando estaba al principio de la misma.
  ctrl + K       Elimina todo lo que este del cursor a su derecha
+ Ctrl+l: limpia la terminal, similar a lo que hace el comando clear.
  
+Ctrl+Shift+f: abre un diálogo para hacer una búsqueda de texto en la salida de la terminal.
+Ctrl+Shift+g: busca la siguiente ocurrencia de la búsqueda previa en la terminal.
+Ctrl+Shift+h: busca la anterior ocurrencia de la búsqueda previa en la terminal.
+ 
+ 
+Ctrl+S: Stop all output to the screen. This is particularly useful when running commands with a lot of long, verbose output, but you don’t want to stop the command itself with Ctrl+C.
+Ctrl+Q: Resume output to the screen after stopping it with Ctrl+S.
+
+
+
+    Ctrl+W: Cut the word before the cursor, adding it to the clipboard.
+    Ctrl+K: Cut the part of the line after the cursor, adding it to the clipboard.
+    Ctrl+U: Cut the part of the line before the cursor, adding it to the clipboard.
+    Ctrl+Y: Paste the last thing you cut from the clipboard. The y here stands for “yank”.
+
+set -o vi
+
