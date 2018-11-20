@@ -1,4 +1,10 @@
+the biggest time savers
 
+<ESC> . ó <ALT> . Insert the last argument of the previous command
+In Vi mode:<Esc> _ 
+In Vi mode:<Esc> _ + _ + _ 
+So, after one or more Alt-. keypresses, pressing Alt-- will cause the next Alt-. to go in the reverse direction. 
+(Just ignore the argument dialog which appears when you press Alt--.)
 
  Ctrl + A       Manda el cursor al principio de la línea
  Ctrl + E       Manda el cursor al final de la línea
@@ -24,4 +30,14 @@ Ctrl+Q: Resume output to the screen after stopping it with Ctrl+S.
     Ctrl+Y: Paste the last thing you cut from the clipboard. The y here stands for “yank”.
 
 set -o vi
+
+
+
+sudo !!
+alt + \ igual que alt + tab pero ventanas de la aplicacion abierta
+
+
+
+
+
 
