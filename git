@@ -1,0 +1,38 @@
+
+git add readme.md
+git reset readme.md
+git add readme.md (to get it back in the staging area)
+git commit -m ‘commit empty readme’
+
+git diff 
+git diff --staged
+
+
+git remote add origin https://github.com/pgonyan/individual-work.git
+git remote -v
+
+…or create a new repository on the command line
+echo "# individual-work" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/pgonyan/individual-work.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/pgonyan/individual-work.git
+git push -u origin master
+
+
+
+git fetch -- you can rest assured: fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough
+git pull
+
+
+git show master -- lastest  commits to master
+git branch newbranch
+git branch nebranch master^ -- apunta commit anterior
+git-checkout - Switch branches or restore working tree files
+git-school.github.io/visualizing-git
+http://git-school.github.io/visualizing-git/
+
