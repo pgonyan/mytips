@@ -36,3 +36,18 @@ git-checkout - Switch branches or restore working tree files
 git-school.github.io/visualizing-git
 http://git-school.github.io/visualizing-git/
 
+1 organizacion por curso/cuatrimeste
+1 repository por tarea y alumno
+
+git checkout -b authenticate
+git commit -m 'add Oatuh handshake'
+git push -u origin authenticate --set-upstream
+
+git push
+git fecth
+git pull = fecth + merge
+
+
+
+
+
