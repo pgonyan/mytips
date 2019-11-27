@@ -46,3 +46,5 @@ find . -type f -newermt '1/1/2019 0:00:00' -exec grep '10.111.21.21' {} \;
 
 
 
+# history -d num_entrada
+
